@@ -1,7 +1,7 @@
 <script setup>
     import { ref } from 'vue';
     import { RouterLink, RouterView } from 'vue-router';
-    let open = ref(true)
+    let open = ref(false)
     function MenuOpen(){
         open.value = !open.value
     }
