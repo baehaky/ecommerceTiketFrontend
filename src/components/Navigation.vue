@@ -13,7 +13,7 @@
     ]
 </script>
 <template>
-    <nav class="bg-indigo-800 text-white py-3.5 px-6 shadow-slate-700/45 shadow-md md:flex justify-between items-center">
+    <nav class="bg-indigo-800 text-white py-3.5 px-6 max-w-screen-xl shadow-slate-700/45 shadow-md md:flex justify-between items-center">
         <div class="flex items-center">
             <h1 class="font-bold uppercase underline underline-offset-4 md:text-2xl text-xl">SonicTickets</h1>
         </div>
