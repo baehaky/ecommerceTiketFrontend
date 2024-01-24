@@ -29,14 +29,14 @@ const router = createRouter({
     },
     {
       path: "/:pathMatch(.*)*",
-      name: "pesan",
+      name: "notFound",
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: PageNotFoundVue,
+      component: () => import("../components/PageNotFound.vue"),
     },
   ],
-  linkActiveClass: "underline",
+  linkActiveClass: "underline underline-offset-4 lg:bg-slate-200/95 lg:text-cyan-800 font-medium",
 });
 
 export default router;

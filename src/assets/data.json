@@ -1,0 +1,66 @@
+{
+    "customers": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "email": "john@doe.com",
+            "password" : "john123"
+        }
+    ],
+    "data": [
+        {
+            "domestic": [
+                {
+                    "id": 1,
+                    "placeName": "Lombok",
+                    "category": "Local Flight",
+                    "price" : 1200000
+                },
+                {
+                    "id": 2,
+                    "placeName": "Bali",
+                    "category": "Local Flight",
+                    "price" : 1800000
+                },
+                {
+                    "id": 3,
+                    "placeName": "Bandung",
+                    "category": "Local Flight",
+                    "price" : 875000
+                },
+                {
+                    "id": 4,
+                    "placeName": "Batam",
+                    "category": "Local Flight",
+                    "price" : 1150000
+                },
+                {
+                    "id": 5,
+                    "placeName": "Jakarta",
+                    "category": "Local Flight",
+                    "price" : 900000
+                }
+            ],
+            "international": [
+                {
+                    "id": 1,
+                    "placeName": "Singapore",
+                    "category": "International Flight",
+                    "price" : 5250000
+                },
+                {
+                    "id": 2,
+                    "placeName": "Malaysia",
+                    "category": "International Flight",
+                    "price" : 5200000
+                },
+                {
+                    "id": 3,
+                    "placeName": "Japan",
+                    "category": "International Flight",
+                    "price" : 9250000
+                }
+            ]
+        }
+    ]
+}
