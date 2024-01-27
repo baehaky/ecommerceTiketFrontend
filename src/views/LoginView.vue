@@ -10,7 +10,7 @@
 
   <!-- Sidebar -->
   <div class="relative overflow-hidden md:flex  w-1/2 bg-gradient-to-tr from-sky-800 to-blue-900 i justify-around items-center hidden">
-    <div class="bg-white/15 py-10 px-10 rounded-lg backdrop-blur-sm">
+    <div class="bg-white/15 py-10 px-10 rounded-lg backdrop-blur-lg">
         <div class="">
             <RouterLink to="/" class="flex items-center space-x-3 hover:underline text-gray-100 rounded transition duration-150">
                 <span class="bg-white rounded-full">
@@ -33,28 +33,6 @@
 		<div class="absolute -top-40 -right-0 w-80 h-80 border-4 rounded-full border-opacity-30 border-t-8"></div>
 		<div class="absolute -top-20 -right-20 w-80 h-80 border-4 rounded-full border-opacity-30 border-t-8"></div>
 </div>
-    <!-- <div class='hidden lg:flex flex-col justify-between bg-sky-800 lg:p-8 xl:p-12 lg:max-w-sm xl:max-w-lg'>
-    <div class="flex items-center justify-start space-x-3">
-        <RouterLink to="/" class="flex items-center space-x-3 hover:underline text-gray-100 px-4 py-2 mt-12 rounded transition duration-150">
-                <span class="bg-white rounded-full">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd" d="M9.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L7.414 9H15a1 1 0 110 2H7.414l2.293 2.293a1 1 0 010 1.414z" clip-rule="evenodd"></path>
-                </svg>
-            </span>
-            <span>Return Home</span>
-        </RouterLink>
-    </div>
-    <div class='space-y-5 text-white'>
-      <h1 class="lg:text-3xl xl:text-5xl xl:leading-snug font-extrabold">Enter your account and discover new
-        experiences</h1>
-      <p class="text-lg">You do not have an account?</p>
-      <button
-        class="inline-block flex-none px-4 py-3 border-2 rounded-lg font-medium border-black bg-black text-white">Create
-        account here</button>
-    </div>
-    <p class="font-medium text-white">© 2022 ad</p>
-  </div> -->
-
   <!-- Login -->
   <div class="flex flex-1 flex-col items-center justify-center px-10 relative">
     <!-- Login box -->
